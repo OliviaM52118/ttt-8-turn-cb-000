@@ -4,10 +4,9 @@ def turn(board)
   while (cond_main == 1)
     puts "Please enter 1-9:"
     temp1 = gets.strip
-    cond1 =
-    if()
-    else
-
+    temp2 = input_to_index(temp1)
+    if(temp2 =! -1)
+      cond1 = valid_move(board,temp2)
     end
   end
 end
