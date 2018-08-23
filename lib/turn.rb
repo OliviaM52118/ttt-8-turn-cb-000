@@ -7,6 +7,9 @@ def turn(board)
     temp2 = input_to_index(temp1)
     if(temp2 =! -1)
       cond1 = valid_move(board,temp2)
+      if(cond1 == true)
+        move(board, temp2)
+      end
     end
   end
 end
