@@ -1,6 +1,9 @@
 #Main method, turn method
 def turn(board)
   cond_main = 1
+  puts "Please enter 1-9:"
+  temp1 = gets.strip
+  temp2 = input_to_index(temp1)
   while (cond_main == 1)
     puts "Please enter 1-9:"
     temp1 = gets.strip
