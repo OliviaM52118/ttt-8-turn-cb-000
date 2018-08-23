@@ -1,8 +1,14 @@
 #Main method, turn method
-def turn()
+def turn(board)
   cond_main = 1
   while (cond_main == 1)
+    puts "Please enter 1-9:"
+    temp1 = gets.strip
+    cond1 =
+    if()
+    else
 
+    end
   end
 end
 
