@@ -1,6 +1,9 @@
 #Main method, turn method
 def turn()
+  cond_main = 1
+  while (cond_main == 1)
 
+  end
 end
 
 
