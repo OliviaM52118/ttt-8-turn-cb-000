@@ -5,7 +5,7 @@ def turn(board)
     puts "Please enter 1-9:"
     temp1 = gets.strip
     temp2 = input_to_index(temp1)
-    if(temp2 =! -1)
+    if(temp2 >= 0)
       cond1 = valid_move(board,temp2)
       if(cond1 == true)
         move(board, temp2)
