@@ -9,6 +9,7 @@ def turn(board)
       cond1 = valid_move(board,temp2)
       if(cond1 == true)
         move(board, temp2)
+        cond_main = 0
       end
     end
   end
